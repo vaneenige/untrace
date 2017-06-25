@@ -15,6 +15,10 @@
   "author": "Colin van Eenige <cvaneenige@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/vaneenige/untrace",
+  "files": [
+    "src",
+    "dist"
+  ],
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-plugin-add-module-exports": "^0.2.1",
