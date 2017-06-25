@@ -1,6 +1,6 @@
 {
   "name": "untrace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal event tracking on the client in 300 bytes.",
   "main": "dist/untrace.js",
   "scripts": {
