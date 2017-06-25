@@ -8,7 +8,8 @@
     "build": "npm-run-all --silent clean -p rollup -s size",
     "clean": "rimraf dist && mkdirp dist",
     "rollup": "rollup -c rollup.config.js -f cjs -n $npm_package_name -o $npm_package_main",
-    "size": "echo \"Build complete ($(gzip-size $npm_package_main))\""
+    "size": "echo \"Build complete ($(gzip-size $npm_package_main))\"",
+    "prepublish": "npm run build"
   },
   "repository": "vaneenige/untrace",
   "author": "Colin van Eenige <cvaneenige@gmail.com>",
